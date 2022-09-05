@@ -2,9 +2,9 @@ import { useInfiniteQuery } from '@tanstack/react-query';
 import { useInView } from 'react-cool-inview';
 
 import { IPage} from "@/types";
-
 import {getFilterParam} from "@/utils/url";
-import {fetchPokemons, LIMIT } from '../fetchPokemons';
+
+import {fetchPokemons, LIMIT } from '@/api/fetchPokemons';
 
 export interface IInfiniteQueryPokemons {
     pages?: IPage[][] | undefined,

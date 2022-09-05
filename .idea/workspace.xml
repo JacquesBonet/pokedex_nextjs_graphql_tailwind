@@ -5,56 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74e56a9a-6b1b-4933-ba54-1c9bae68657e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pokedex_nextjs_graphql_tailwind.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codegen.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/fetchPokemonTypes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/fetchPokemons.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/fetcher.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/hooks/pokemonTypes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/hooks/pokemons.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Card.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CardFooter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Icons.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ListFilter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PokemonCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/VirtualList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/react-query.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generated/graphql.types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useScrollDirection.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/_document.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/pokemon.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/colors.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/getBackgroundColors.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/url.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.eslint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/hooks/pokemonTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/pokemonTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/hooks/pokemons.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/pokemons.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ListFilter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListFilter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +45,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/hooks" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -103,11 +60,24 @@
       <workItem from="1662326771477" duration="3302000" />
       <workItem from="1662330376747" duration="726000" />
       <workItem from="1662331111930" duration="7388000" />
-      <workItem from="1662365616590" duration="15120000" />
+      <workItem from="1662365616590" duration="16437000" />
     </task>
+    <task id="LOCAL-00001" summary="First release">
+      <created>1662383446142</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662383446142</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="First release" />
+    <option name="LAST_COMMIT_MESSAGE" value="First release" />
   </component>
 </project>

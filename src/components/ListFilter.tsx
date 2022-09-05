@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import { ChangeEvent } from 'react';
 
-import {useQueryPokemonTypes} from "@/api/hooks/pokemonTypes";
+import {useQueryPokemonTypes} from "@/hooks/pokemonTypes";
 import { getNewRoute } from '@/utils/url';
 
 export default function ListFilter() {
@@ -39,7 +39,6 @@ export default function ListFilter() {
                     </option>
                 ))}
             </select>
-
         </>
     );
 }

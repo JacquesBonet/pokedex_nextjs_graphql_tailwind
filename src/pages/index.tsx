@@ -1,8 +1,6 @@
-import React from 'react'
-
-import { useInfiniteQueryPokemons } from '@/api/hooks/pokemons'
 import PokemonCard from '@/components/PokemonCard'
 import { VirtualList } from "@/components/VirtualList";
+import { useInfiniteQueryPokemons } from '@/hooks/pokemons'
 
 function Home() {
   const { pages, observe} = useInfiniteQueryPokemons()
