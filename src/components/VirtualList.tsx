@@ -14,11 +14,10 @@ export const VirtualList: FC<IVirtualListProps> = ({ Element, pages, observe }) 
       {pages?.map((page: IPage[], idx: number) =>
          page?.map((data: IPage, jdx: number) => {
             const isLast = pages.length * page.length - (idx + 1) * (jdx + 1) === 0
-            const { id, name, types } = data
 
             return (
-               <li key={name} ref={isLast ? observe : undefined} className="h-80 w-full">
-                  <Element name={name} id={id} types={types} />
+               <li key={data.name} ref={isLast ? observe : undefined} className="h-80 w-full">
+                  <Element {...data} />
                </li>
             )
          }),

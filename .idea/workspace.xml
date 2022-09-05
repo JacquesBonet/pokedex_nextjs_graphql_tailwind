@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74e56a9a-6b1b-4933-ba54-1c9bae68657e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PokemonCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PokemonCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/fetchPokemonTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/fetchPokemonTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/fetchPokemons.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/fetchPokemons.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VirtualList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VirtualList.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <workItem from="1662330376747" duration="726000" />
       <workItem from="1662331111930" duration="7388000" />
       <workItem from="1662365616590" duration="22207000" />
-      <workItem from="1662393214226" duration="11882000" />
+      <workItem from="1662393214226" duration="13204000" />
     </task>
     <task id="LOCAL-00001" summary="First release">
       <created>1662383446142</created>
@@ -147,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662404885331</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="corrects 2 bugs">
+      <created>1662414179206</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662414179206</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +173,7 @@
     <MESSAGE value="8 release: link to demo" />
     <MESSAGE value="9 release: rebuild" />
     <MESSAGE value="10 release: readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="10 release: readme" />
+    <MESSAGE value="corrects 2 bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrects 2 bugs" />
   </component>
 </project>
