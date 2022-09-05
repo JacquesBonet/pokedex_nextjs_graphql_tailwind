@@ -5,7 +5,7 @@ import { ICardProps, IPage } from '@/types'
 export interface IVirtualListProps {
    Element: FC<ICardProps>
    pages?: IPage[][]
-   observe: (props: HTMLElement) => void
+   observe: (props: HTMLLIElement) => void
 }
 
 export const VirtualList: FC<IVirtualListProps> = ({ Element, pages, observe }) => (
@@ -16,7 +16,7 @@ export const VirtualList: FC<IVirtualListProps> = ({ Element, pages, observe }) 
             const { id, name, types } = data
 
             return (
-               <li key={name} ref={isLast ? observe : null} className="h-80 w-full">
+               <li key={name} ref={isLast ? observe : undefined} className="h-80 w-full">
                   <Element name={name} id={id} types={types} />
                </li>
             )
