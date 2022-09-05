@@ -88,7 +88,7 @@
       <workItem from="1662330376747" duration="726000" />
       <workItem from="1662331111930" duration="7388000" />
       <workItem from="1662365616590" duration="22207000" />
-      <workItem from="1662393214226" duration="1146000" />
+      <workItem from="1662393214226" duration="1465000" />
     </task>
     <task id="LOCAL-00001" summary="First release">
       <created>1662383446142</created>
@@ -111,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662386840485</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4 release: clean code">
+      <created>1662394678944</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662394678944</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +129,7 @@
     <MESSAGE value="First release" />
     <MESSAGE value="Second release" />
     <MESSAGE value="Third release: deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Third release: deploy" />
+    <MESSAGE value="4 release: clean code" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 release: clean code" />
   </component>
 </project>
