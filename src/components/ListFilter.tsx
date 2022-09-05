@@ -11,7 +11,7 @@ export const ListFilter: FC = () => {
    const handleNewFilter = ({ target }: ChangeEvent<HTMLInputElement>) =>
       replace(getNewRoute({ name: target.value.trim() }))
 
-   const handleNewType = ({ target }: ChangeEvent<HTMLInputElement>) =>
+   const handleNewType = ({ target }: ChangeEvent<HTMLSelectElement>) =>
       replace(getNewRoute({ type: target.value.trim() }))
 
    return (

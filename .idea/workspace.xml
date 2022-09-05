@@ -5,35 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74e56a9a-6b1b-4933-ba54-1c9bae68657e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/fetchPokemonTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/fetchPokemonTypes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/fetchPokemons.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/fetchPokemons.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/fetcher.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/fetcher.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardFooter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardFooter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Icons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Icons.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ListFilter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListFilter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PokemonCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PokemonCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VirtualList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VirtualList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/react-query.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/react-query.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/graphql.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/graphql.types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/pokemonTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/pokemonTypes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/pokemons.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/pokemons.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useScrollDirection.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useScrollDirection.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_document.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/pokemon.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/pokemon.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/colors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/colors.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/getBackgroundColors.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/url.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/url.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +61,7 @@
       <workItem from="1662330376747" duration="726000" />
       <workItem from="1662331111930" duration="7388000" />
       <workItem from="1662365616590" duration="22207000" />
-      <workItem from="1662393214226" duration="1465000" />
+      <workItem from="1662393214226" duration="2219000" />
     </task>
     <task id="LOCAL-00001" summary="First release">
       <created>1662383446142</created>
@@ -118,7 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662394678944</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="4 release: clean code">
+      <created>1662394736691</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662394736691</updated>
+    </task>
+    <task id="LOCAL-00006" summary="4 release: clean code">
+      <created>1662394793238</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662394793238</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
