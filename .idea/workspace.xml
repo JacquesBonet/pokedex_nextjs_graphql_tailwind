@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74e56a9a-6b1b-4933-ba54-1c9bae68657e" name="Changes" comment="" />
+    <list default="true" id="74e56a9a-6b1b-4933-ba54-1c9bae68657e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ListFilter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListFilter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +38,7 @@
     "nodejs_package_manager_path": "yarn",
     "prettierjs.PrettierConfiguration.Package": "/home/jacques/Documents/software/pokedex_nextjs_graphql_tailwind/node_modules/prettier",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "/home/jacques/Documents/software/pokedex_nextjs_graphql_tailwind/node_modules/typescript/lib",
+    "ts.external.directory.path": "/home/jacques/Documents/software/WebStorm-2022.2/WebStorm-222.3345.108/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -58,7 +62,7 @@
       <workItem from="1662330376747" duration="726000" />
       <workItem from="1662331111930" duration="7388000" />
       <workItem from="1662365616590" duration="22207000" />
-      <workItem from="1662393214226" duration="6645000" />
+      <workItem from="1662393214226" duration="10746000" />
     </task>
     <task id="LOCAL-00001" summary="First release">
       <created>1662383446142</created>
@@ -123,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662399902666</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="8 release: link to demo">
+      <created>1662400707929</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662400707929</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +149,7 @@
     <MESSAGE value="5 release: clean code" />
     <MESSAGE value="6 release: clean code" />
     <MESSAGE value="7 release: suppress warning" />
-    <option name="LAST_COMMIT_MESSAGE" value="7 release: suppress warning" />
+    <MESSAGE value="8 release: link to demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="8 release: link to demo" />
   </component>
 </project>

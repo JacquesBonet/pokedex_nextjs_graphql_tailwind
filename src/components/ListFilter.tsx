@@ -19,7 +19,7 @@ export const ListFilter: FC = () => {
          <input
             type="text"
             placeholder="🔍 Search by name"
-            className="bg-slate-200 rounded-md px-3 lg:w-52"
+            className="bg-slate-200 bg-white border-gray-300 rounded-md  border border-solid px-3 py-1.5 lg:w-52"
             onInput={handleNewFilter}
             maxLength={11}
             defaultValue={query.name || ''}
@@ -28,7 +28,7 @@ export const ListFilter: FC = () => {
          <select
             value={query.type}
             onChange={handleNewType}
-            className="bg-slate-200 rounded-md px-3 lg:w-52"
+            className="bg-slate-200 bg-white border-gray-300 rounded-md  border border-solid px-3 py-1.5 lg:w-52"
          >
             <option value="0">All types</option>
             {types.map(({ id, name }) => (
