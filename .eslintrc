@@ -7,7 +7,14 @@
   "rules": {
     "jsx-a11y/anchor-is-valid": "warn",
     "unicorn/prefer-query-selector": "warn",
-    "unicorn/filename-case": "off"
+    "unicorn/filename-case": "off",
+    "react/function-component-definition": [
+      "error",
+      {
+        "namedComponents": ["function-declaration", "arrow-function"],
+        "unnamedComponents": "arrow-function"
+      }
+    ]
   },
   "overrides": [
     {

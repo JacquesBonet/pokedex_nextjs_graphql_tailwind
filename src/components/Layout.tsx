@@ -1,17 +1,14 @@
-import { ReactNode } from 'react'
+import { FC, ReactNode } from 'react'
 
-import { Navbar } from "@/components/Navbar";
+import { Navbar } from '@/components/Navbar'
 
 export interface ILayoutProps {
-  children: ReactNode
+   children: ReactNode
 }
 
-export function Layout({ children }: ILayoutProps) {
-  return (
-    <>
+export const Layout: FC<ILayoutProps> = ({ children }) => (
+   <>
       <Navbar />
       <main className="mt-14 flex h-full w-full flex-col">{children}</main>
-    </>
-  )
-}
-
+   </>
+)

@@ -1,19 +1,19 @@
-import type { ReactNode } from 'react';
+import type { FC } from 'react'
 
-import type { IColorVariant } from '@/types';
+import { PokemonTypeColor } from '@/utils/colors'
 
 export interface ICardProps {
-  bgColors: IColorVariant[];
-  children: ReactNode;
+   children: any
+   type: string
 }
 
-export function Card({ bgColors, children }: ICardProps) {
-  return <div
-    className="relative flex h-2/3 w-full flex-col items-center justify-center overflow-hidden rounded-t-2xl"
-    style={{
-      background: `linear-gradient(0deg, #fafafa, ${bgColors[0].light})`,
-    }}
-  >
-    {children}
-  </div>
-}
+export const Card: FC<ICardProps> = ({ children, type }) => (
+   <div
+      className="relative flex h-2/3 w-full flex-col items-center justify-center overflow-hidden rounded-t-2xl"
+      style={{
+         background: `linear-gradient(0deg, #fafafa, ${PokemonTypeColor[type]?.light})`,
+      }}
+   >
+      {children}
+   </div>
+)

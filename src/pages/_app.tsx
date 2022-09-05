@@ -4,29 +4,29 @@ import { Hydrate, QueryClient, QueryClientProvider } from '@tanstack/react-query
 import type { AppProps } from 'next/app'
 import { useState } from 'react'
 
-import { Layout } from "@/components/Layout";
+import { Layout } from '@/components/Layout'
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const [queryClient] = useState(
-    () =>
-      new QueryClient({
-        defaultOptions: {
-          queries: {
-            staleTime: Infinity,
-          },
-        },
-      })
-  )
+   const [queryClient] = useState(
+      () =>
+         new QueryClient({
+            defaultOptions: {
+               queries: {
+                  staleTime: Infinity,
+               },
+            },
+         }),
+   )
 
-  return (
+   return (
       <QueryClientProvider client={queryClient}>
-        <Hydrate state={pageProps.dehydratedState}>
-          <Layout>
-            <Component {...pageProps} />
-          </Layout>
-        </Hydrate>
+         <Hydrate state={pageProps.dehydratedState}>
+            <Layout>
+               <Component {...pageProps} />
+            </Layout>
+         </Hydrate>
       </QueryClientProvider>
-  )
+   )
 }
 
 export default MyApp
