@@ -9,6 +9,6 @@
   <p align="center">
     A simple pokedex build with Nextjs, PokeAPI, Tailwind, react-query
     <br />
-    <a href="https://pokedex-nextjs-react-query-taildwind.vercel.app">View Demo</a>
+    <a href="https://pokedex-nextjs-graphql-taildwind.vercel.app">View Demo</a>
   </p>
 </div>
