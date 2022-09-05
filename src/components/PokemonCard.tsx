@@ -17,7 +17,7 @@ export const PokemonCard: FC<ICardProps> = ({ name, id, types }) => (
             <p
                className="absolute top-2 left-8 text-4xl font-bold tracking-widest drop-shadow-2xl"
                style={{
-                  color: PokemonTypeColor[name]?.medium,
+                  color: PokemonTypeColor[types[0] || 'normal']?.medium,
                }}
             >
                {`#${id?.toString().padStart(3, '0')}`}

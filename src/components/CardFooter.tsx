@@ -20,7 +20,7 @@ export const CardFooter: FC<ICardFooterProps> = ({ name, types }) => (
                }}
                className="rounded-md px-2 py-1"
             >
-               <p className="text-xs font-semibold tracking-wide text-primary">{typeName}</p>
+               <p className="text-xs font-semibold tracking-wide text-primary">{typeName.toUpperCase()}</p>
             </div>
          ))}
       </div>
