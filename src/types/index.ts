@@ -1,9 +1,3 @@
-export interface ICardProps {
-   name: string
-   id: number
-   [x: string]: any
-}
-
 export interface IColorsProps {
    [x: string]: IColorVariant
 }

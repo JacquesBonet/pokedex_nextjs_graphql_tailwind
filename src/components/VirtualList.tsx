@@ -1,6 +1,7 @@
 import React, { FC } from 'react'
 
-import { ICardProps, IPage } from '@/types'
+import { ICardProps } from '@/components/Card'
+import { IPage } from '@/types'
 
 export interface IVirtualListProps {
    Element: FC<ICardProps>

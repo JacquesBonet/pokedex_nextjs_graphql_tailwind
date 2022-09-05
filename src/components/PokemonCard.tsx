@@ -2,18 +2,16 @@ import Image from 'next/future/image'
 import Link from 'next/link'
 import { FC } from 'react'
 
-import { Card } from '@/components/Card'
-import { CardFooter } from '@/components/CardFooter'
-import { IPokemon } from '@/types/pokemon'
+import { Card, ICardProps } from '@/components/Card'
+import { PokemonTypeColor } from '@/utils/colors'
 import { IMG_URL } from '@/utils/constants'
 
-import { PokemonTypeColor } from '@/utils/colors'
 import { PokemonIcon } from './Icons'
 
-export const PokemonCard: FC<IPokemon> = ({ name, id, types }) => (
+export const PokemonCard: FC<ICardProps> = ({ name, id, types }) => (
    <Link href={`pokemon/${name}`} prefetch={false}>
       <div className="hover:scale-105">
-         <Card type={types[0] || 'normal'}>
+         <Card name={name} types={types}>
             <PokemonIcon className="absolute w-52 fill-primary stroke-0 opacity-25" />
 
             <p
@@ -22,7 +20,7 @@ export const PokemonCard: FC<IPokemon> = ({ name, id, types }) => (
                   color: PokemonTypeColor[name]?.medium,
                }}
             >
-               {`#${id.toString().padStart(3, '0')}`}
+               {`#${id?.toString().padStart(3, '0')}`}
             </p>
 
             <Image
@@ -36,8 +34,6 @@ export const PokemonCard: FC<IPokemon> = ({ name, id, types }) => (
                style={{ contentVisibility: 'auto' }}
             />
          </Card>
-
-         <CardFooter name={name} types={types} />
       </div>
    </Link>
 )
