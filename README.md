@@ -25,3 +25,9 @@ npm install
 ```bash
 npm run dev
 ```
+
+## regenerate graphql types if schema change
+
+```bash
+npm run codegen
+```
